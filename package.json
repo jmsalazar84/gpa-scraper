@@ -1,0 +1,26 @@
+{
+  "name": "gpa-scraper",
+  "version": "1.0.0",
+  "description": "A google photos album scraper",
+  "keywords": [
+    "google photos",
+    "scraper"
+  ],
+  "homepage": "https://github.com/jmsalazar84/gpa-scraper#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Jose Miguel Salazar",
+    "email": "jmsalazar84@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ora": "^5.2.0",
+    "puppeteer": "^5.5.0",
+    "sqlite3": "^5.0.0",
+    "winston": "^3.3.3",
+    "yargs": "^16.2.0"
+  }
+}
